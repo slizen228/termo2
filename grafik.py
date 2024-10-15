@@ -33,7 +33,7 @@ layout = go.Layout(
 )
 
 # Создаем фигуру с двумя поверхностями
-fig = go.Figure(data=[surface1,surface2], layout=layout)
-
+fig = go.Figure(data=[surface2], layout=layout)
+#fig = go.Figure(data=[surface1], layout=layout)
 # Визуализируем график
 fig.show()
