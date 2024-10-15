@@ -60,8 +60,8 @@ int main() {
 	ofstream fout("value_function.txt");
 
 
-	double tao = 0.1;
-	double h = 0.1;
+	double tao = 0.001;
+	double h = 0.001;
 	double a = 0.027;
 
 	N = 1 / h;
